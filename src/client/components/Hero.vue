@@ -10,6 +10,6 @@
             </p>
             <button class="bg-blue-500 text-white text-lg px-7 py-2 rounded-lg hover:bg-blue-600">Join eventr</button>
         </div>
-        <img class="h-[20rem]" src="./../../../public/FloatDoodle.png" alt="">
+        <img class="h-[20rem]" src="/FloatDoodle.png" alt="">
     </section>
 </template>
