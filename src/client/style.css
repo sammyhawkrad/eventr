@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 /* @media (prefers-color-scheme: dark) {
-  body {
+  * {
     background-color: #161615;
     color: #f1f1f1;
+  }
+
+  .login:hover {
+    color: #1f1f1f;
   }
 } */

@@ -1,5 +1,5 @@
 <template>
-    <section class="md:flex items-center justify-around md:max-w-screen-xl mx-auto my-[5rem] p-5">
+    <section class="md:flex items-center justify-start gap-10 my-[5rem] p-5">
         <div class="md:max-w-[31rem]">
             <h1 class="text-5xl font-bold">Discover and Create Unforgettable Events with Eventr</h1>
             <p class="my-7">
@@ -10,6 +10,6 @@
             </p>
             <button class="bg-blue-500 text-white text-lg px-7 py-2 rounded-lg hover:bg-blue-600">Join eventr</button>
         </div>
-        <img class="h-[20rem]" src="/FloatDoodle.png" alt="">
+        <img class="md:h-[20rem]" src="/FloatDoodle.png" alt="">
     </section>
 </template>

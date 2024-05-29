@@ -7,8 +7,8 @@
         <button class="bg-blue-500 text-white p-2 rounded">Search</button>
         </form>
         <div>
-        <button class="ml-5">Log in</button>
-        <button class="ml-5 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Sign up</button>
+        <button class="hover:bg-gray-200 px-4 py-2 rounded-lg login">Log in</button>
+        <button class="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Sign up</button>
         </div>
       </nav>
     </header>

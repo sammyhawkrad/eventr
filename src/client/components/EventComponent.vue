@@ -6,12 +6,14 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="ring-2 rounded-lg">
-        <img :src="event.image" :alt="`${event.title} cover picture`">
-        <h2>{{ event.title }}</h2>
-        <p>{{ event.description }}</p>
-        <p>{{ event.location }}</p>
-        <p>{{ `${event.date} @ ${event.time}` }}</p>
+    <div class="rounded-lg bg-gray-50 dark:bg-inherit">
+        <img class="rounded-md aspect-video" :src="event.image" :alt="`${event.title} cover picture`">
+        <div class="py-2">
+            <h3 class="text-xl font-bold my-2">{{ event.title }}</h3>
+            <p class="my-1 font-light">{{ event.description }}</p>
+            <p>{{ event.location }}</p>
+            <p>{{ `${event.date} @ ${event.time}` }}</p>
+        </div>
     </div>
 </template>
 
