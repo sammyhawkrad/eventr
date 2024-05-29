@@ -8,7 +8,7 @@
         </form>
         <div>
         <button class="hover:bg-gray-200 px-4 py-2 rounded-lg login">Log in</button>
-        <button class="ml-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Sign up</button>
+        <SignUpButton text="Sign up" />
         </div>
       </nav>
     </header>
@@ -16,6 +16,8 @@
 
 <script setup>
 import { ref } from "vue";
+import SignUpButton from "./SignUpButton.vue";
+
 
 const isOpened = ref(false);
 

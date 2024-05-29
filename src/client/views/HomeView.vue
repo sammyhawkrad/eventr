@@ -4,6 +4,7 @@ import { onBeforeMount } from "vue";
 import NavBar from "../components/NavBar.vue";
 import Hero from "../components/Hero.vue";
 import EventComponent from "../components/EventComponent.vue";
+import Footer from "../components/Footer.vue";
 
 import { useEventsStore } from "../store";
 
@@ -27,6 +28,7 @@ onBeforeMount(() => {
             <a href=""><div class="rounded-sm my-5 p-2 min-w-full text-center bg-gray-100 hover:bg-gray-200">See all events</div></a>
         </section>
     </main>
+    <Footer />
 </template>
 
 
