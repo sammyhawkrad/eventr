@@ -1,17 +1,18 @@
 import { defineStore } from 'pinia';
 
-export const useEventsStore = defineStore('event', {
+export const useEventsStore = defineStore('events', {
     state: () => ({
         events: []
     }),
     getters: {
-        getEvents(state) {
-            return state.events;
+        getEvents() {
+            return this.events;
         }
+
     },
     actions: {
         async fetchEvents() {
-            const response = await fetch('/events');
+            const response = await fetch('/events-data');
             this.events = await response.json();
         }
     }

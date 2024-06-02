@@ -9,7 +9,7 @@ app.get("/hello", (req, res) => {
   res.send("Hello Vite + Vue!");
 });
 
-app.get('/events', (req, res) => {
+app.get('/events-data', (req, res) => {
   res.send(events)
 })
 
