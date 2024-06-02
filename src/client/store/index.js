@@ -13,7 +13,6 @@ export const useEventsStore = defineStore('event', {
         async fetchEvents() {
             const response = await fetch('/events');
             this.events = await response.json();
-            console.log(this.events);
         }
     }
 })

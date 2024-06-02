@@ -3,7 +3,7 @@ import SignUpButton from "./SignUpButton.vue";
 
 </script>
 <template>
-    <section class="md:flex items-center justify-start gap-10 my-[5rem] p-5">
+    <section class="md:flex items-center justify-start gap-10 my-[5rem]">
         <div class="md:max-w-[31rem]">
             <h1 class="text-5xl font-bold">Discover and Create Unforgettable Events with Eventr</h1>
             <p class="my-7">
