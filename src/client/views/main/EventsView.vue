@@ -3,10 +3,6 @@ import { useEventsStore } from "../../store";
 import EventComponent from "../../components/EventComponent.vue";
 
 const eventsStore = useEventsStore();
-
-if (eventsStore.events.length === 0) {
-    eventsStore.fetchEvents();
-}
 </script>
 
 <template>

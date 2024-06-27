@@ -8,10 +8,6 @@ import { useEventsStore } from "../../store";
 
 const eventsStore = useEventsStore();
 
-onBeforeMount(() => {
-    eventsStore.fetchEvents();
-});
-
 </script>
 
 <template>
